@@ -63,31 +63,52 @@ button{
     flex-direction: column;
     align-items: center;
 }
-.edutitle{
+h2{
     background-color: lightgreen;
     padding: 0px 300px;
+    border-bottom: 2px solid green;
 }
-.eduup{
-    border: 2px solid brown;
+.eduup{  
     padding: 20px;
     background-color: aquamarine;
     font-size: 20px;
     margin-right: 50px;
+    border-right: 5px solid;
+    border-bottom: 5px solid;
 }
-.edumid{
-    border: 2px solid brown;
+.edumid{   
     padding: 20px;
     background-color: aquamarine;   
     font-size: 20px;
     margin-right: 50px;
+    border-right: 5px solid;
+    border-bottom: 5px solid;
 }
-.edudown{
-    border: 2px solid brown;
+.edudown{  
     padding: 20px;
     background-color: aquamarine;  
     font-size: 20px;
+    border-right: 5px solid;
+    border-bottom: 5px solid;
 }
 .box{
     display: flex;
     margin-top: 30px;
+}
+#Skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#Skills h2{
+    padding: 0px 400px;
+}
+#Skills img{
+    padding-right: 100px;
+    padding-left: 100px;
+}
+.row1-title{
+    display: flex;
+    flex-direction: row;
+    margin: 0px 50px 0px 50px;
 }
