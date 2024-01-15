@@ -32,7 +32,7 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 section{
-    margin: 100px 0 150px 0;
+    margin: 100px 0 300px 0;
 }
 #About{
     display: flex;
@@ -62,29 +62,32 @@ button{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
 }
 .edutitle{
     background-color: lightgreen;
+    padding: 0px 300px;
 }
 .eduup{
     border: 2px solid brown;
     padding: 20px;
     background-color: aquamarine;
-    margin-right: 50%;
     font-size: 20px;
+    margin-right: 50px;
 }
 .edumid{
     border: 2px solid brown;
     padding: 20px;
-    background-color: aquamarine;
-    margin-right: 50%;
+    background-color: aquamarine;   
     font-size: 20px;
+    margin-right: 50px;
 }
 .edudown{
     border: 2px solid brown;
     padding: 20px;
-    background-color: aquamarine;
-    margin-right: 50%;
+    background-color: aquamarine;  
     font-size: 20px;
+}
+.box{
+    display: flex;
+    margin-top: 30px;
 }
